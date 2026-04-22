@@ -102,28 +102,29 @@ const sortBy = (key) => {
   border-collapse: collapse;
   margin-top: 10px;
   font-size: 14px;
+  color: var(--text-color);
 }
 
 .employee-table th,
 .employee-table td {
   padding: 12px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .employee-table th {
-  background-color: #f5f5f5;
+  background-color: var(--table-header-bg);
   cursor: pointer;
   user-select: none;
   font-weight: 600;
-  color: #333;
+  color: var(--text-color);
 }
 
 .employee-table th:hover {
-  background-color: #e0e0e0;
+  background-color: var(--table-row-hover);
 }
 
 .employee-table tbody tr:hover {
-  background-color: #f9f9f9;
+  background-color: var(--table-row-hover);
 }
 </style>

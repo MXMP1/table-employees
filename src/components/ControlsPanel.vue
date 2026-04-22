@@ -55,14 +55,16 @@ const clearAll = () => {
 .search-input,
 .filter-select {
   padding: 8px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--input-border);
   border-radius: 4px;
   font-size: 14px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 button {
   padding: 8px 16px;
-  background-color: #f44336;
+  background-color: var(--button-bg);
   color: white;
   border: none;
   border-radius: 4px;
@@ -71,6 +73,6 @@ button {
 }
 
 button:hover {
-  background-color: #d32f2f;
+  background-color: var(--button-hover);
 }
 </style>
