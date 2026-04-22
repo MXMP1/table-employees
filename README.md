@@ -29,9 +29,9 @@
 ## Технологии
 
 * **Фронтенд:** HTML5, CSS3, JavaScript (ES6+);
-* **Дополнительно:** Vue.js (опционально, если используется);
+* **Дополнительно:** Vue.js, Vite;
 * **Контроль версий:** Git, GitHub.
 
-## Установка и запуск
+## Установка
    ```bash
-   git clone <URL-репозитория>
+   git clone https://github.com/MXMP1/table-employees.git
